@@ -11,6 +11,9 @@ module.exports = {
     div: function (n1, n2) {
         return n1 / n2;
     },
+    calc: function(n1, n2){
+        return this.sum(n1,n2);
+    }
 };
 
 //var result = calc.sum(2,2);
